@@ -35,6 +35,7 @@
 
 - **Django**: Django é um framework de alto nível para Python que incentiva o desenvolvimento rápido e o design limpo e pragmático.
 - **Postgres**: Postgres é um sistema de gerenciamento de banco de dados SQL de objeto-relacional.
+- **Django Rest Framework**: Django Rest Framework é um poderoso e flexível kit de ferramentas para construir Web APIs.
 
 ### Como Executar
 

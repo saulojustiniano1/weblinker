@@ -1,7 +1,9 @@
 from django.db import models
 
+from softdelete.models import BaseModel
 
-class Post(models.Model):
+
+class Post(BaseModel):
     title = models.CharField(max_length=200)
     content = models.TextField()
     pub_date = models.DateTimeField(auto_now_add=True)

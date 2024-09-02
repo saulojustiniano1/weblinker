@@ -13,9 +13,6 @@ class BaseManager(models.Manager):
 
 
 class BaseModel(models.Model):
-    class Meta:
-        abstract = True
-
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     deleted_at = models.DateTimeField(editable=False, blank=True, null=True)
@@ -23,12 +20,13 @@ class BaseModel(models.Model):
 
     objects = BaseManager()
 
+    class Meta:
+        abstract = True
 
-def delete(self, **kwargs):
-    self.is_active = False
-    self.deleted_at = timezone.now()
-    self.save()
+    def delete(self, **kwargs):
+        self.is_active = False
+        self.deleted_at = timezone.now()
+        self.save()
 
-
-def hard_delete(self, **kwargs):
-    super(BaseModel, self).delete(**kwargs)
+    def hard_delete(self, **kwargs):
+        super(BaseModel, self).delete(**kwargs)

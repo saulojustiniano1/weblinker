@@ -11,6 +11,7 @@ ALLOWED_HOSTS = []
 
 APPS = [
     'posts',
+    'softdelete',
 ]
 
 INSTALLED_APPS = [
@@ -100,5 +101,5 @@ REST_FRAMEWORK = {
     "DEFAULT_SCHEMA_CLASS": "rest_framework.schemas.coreapi.AutoSchema",
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
     "NON_FIELD_ERRORS_KEY": "error",
-    "PAGE_SIZE": 3
+    "PAGE_SIZE": 5
 }

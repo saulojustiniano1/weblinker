@@ -37,7 +37,7 @@
 
 - **Django:** Um framework web de alto nível em Python que encoraja o desenvolvimento rápido e um design limpo e pragmático.
 - **Django Rest Framework:** Um conjunto de ferramentas poderoso e flexível para a construção de APIs Web.
-- **SQLite:** Um banco de dados leve, baseado em disco, que não requer um processo de servidor separado e permite o acesso ao banco de dados usando uma variante não padrão da linguagem de consulta SQL.
+- **PostgresSQL:** Um sistema de gerenciamento de banco de dados relacional de código aberto que oferece robustez, suporte a transações ACID, e uma rica funcionalidade, incluindo suporte a tipos de dados avançados e extensões como o PostGIS para dados geoespaciais.
 - **Python:** Uma linguagem de programação que permite trabalhar de maneira rápida e integrar sistemas de forma mais eficaz.
 
 ### Instalação
@@ -62,7 +62,7 @@ cd weblinker
 **2. Crie e ative um ambiente virtual (opcional, mas recomendado):**
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 ```
 
@@ -75,19 +75,19 @@ pip install -r requirements.txt
 **4. Aplique as migrações:**
 
 ```bash
-python manage.py migrate
+python3 manage.py migrate
 ```
 
 **5. Crie um superusuário (para acessar a interface de administração do Django):**
 
 ```bash
-python manage.py createsuperuser
+python3 manage.py createsuperuser
 ```
 
 **6. Execute o servidor de desenvolvimento:**
 
 ```bash
-python manage.py runserver
+python3 manage.py runserver
 ```
 
 **7. Acesse a aplicação:**
@@ -119,7 +119,36 @@ curl -X POST http://127.0.0.1:8000/api/links/ -H
 curl http://127.0.0.1:8000/api/links/
 ```
 
-### Como Executar
+#### Testes da API de Posts
+
+**Dependências**
+Certifique-se de ter as seguintes dependências instaladas:
+
+- Django
+- Django REST Framework
+- Django REST Framework Simple JWT
+
+**Descrição dos Testes**
+A classe PostAPITestCase realiza os seguintes testes:
+
+- **Criação de Post:** Verifica se um post pode ser criado com sucesso por um usuário autenticado e se os dados do post são salvos corretamente.
+
+- **Recuperação de Post:** Testa se um post existente pode ser recuperado e se os dados retornados estão corretos.
+
+- **Atualização de Post:** Valida se um post pode ser atualizado com sucesso e se as alterações são refletidas no banco de dados.
+
+- **Exclusão de Post:** Confirma que um post pode ser excluído e que o banco de dados é atualizado corretamente após a exclusão.
+
+- **Criação de Post sem Autenticação:** Garante que a criação de um post é negada quando a solicitação é feita sem um token de autenticação.
+
+**Execução dos Testes**
+Para rodar os testes, utilize o comando:
+
+```bash
+python3 manage.py test
+```
+
+### Como Executar o Projeto
 
 1. Clone o repositório
 2. Instale as dependências com `pip install -r requirements.txt`

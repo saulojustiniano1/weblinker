@@ -13,7 +13,8 @@ logger = logging.getLogger('custom')
 class PostViewSet(viewsets.ModelViewSet):
     queryset = models.Post.objects.all()
     serializer_class = serializers.PostSerializer
-    permission_classes = [permissions.IsAuthenticated, IsInSpecificGroup]
+    # permission_classes = [permissions.IsAuthenticated, IsInSpecificGroup]
+    permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
         logger.info(f'Novo {self.request.data["title"]}')

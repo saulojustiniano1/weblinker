@@ -19,6 +19,10 @@ APPS_REST = [
     'rest_framework_simplejwt',
 ]
 
+MIDDLEWARE = [
+    'weblinker.middleware.CustomMiddleware',
+]
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -99,10 +103,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
-
-MIDDLEWARE = [
-    'weblinker.middleware.CustomMiddleware',
-]
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [

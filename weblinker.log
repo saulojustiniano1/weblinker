@@ -36,3 +36,21 @@
 2024-09-09 19:28:10,435 - WARNING - Not Found: /api/posts/
 2024-09-09 19:31:00,523 - WARNING - Not Found: /api/posts/
 2024-09-09 19:31:00,812 - WARNING - Not Found: /api/posts/
+2024-09-09 22:35:08,258 - WARNING - Not Found: /api/posts/
+2024-09-09 22:35:08,553 - WARNING - Not Found: /api/posts/
+2024-09-09 22:39:19,857 - WARNING - Not Found: /api/posts/
+2024-09-09 22:39:20,151 - WARNING - Not Found: /api/posts/
+2024-09-09 22:40:40,640 - WARNING - Not Found: /api/posts/
+2024-09-09 22:43:53,529 - INFO - Novo Novo Post
+2024-09-09 22:44:45,522 - INFO - Novo Novo Post
+2024-09-09 22:44:45,814 - WARNING - Unauthorized: /api/post/
+2024-09-09 22:44:46,103 - WARNING - Unauthorized: /api/post/2/
+2024-09-09 22:44:46,398 - WARNING - Unauthorized: /api/post/3/
+2024-09-09 22:44:46,686 - WARNING - Unauthorized: /api/post/4/
+2024-09-09 22:46:13,650 - INFO - Novo Novo Post
+2024-09-09 22:46:14,033 - WARNING - Unauthorized: /api/post/2/
+2024-09-09 22:49:23,567 - INFO - Novo Novo Post
+2024-09-09 22:49:44,548 - INFO - Novo Novo Post
+2024-09-09 22:50:10,164 - INFO - Novo Novo Post
+2024-09-09 22:50:29,423 - INFO - Novo Novo Post
+2024-09-09 22:50:29,721 - WARNING - Unauthorized: /api/post/

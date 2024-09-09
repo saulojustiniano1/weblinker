@@ -122,6 +122,7 @@ curl http://127.0.0.1:8000/api/links/
 ### Testes da API de Posts
 
 **Dependências**
+
 Certifique-se de ter as seguintes dependências instaladas:
 
 - Django
@@ -129,6 +130,7 @@ Certifique-se de ter as seguintes dependências instaladas:
 - Django REST Framework Simple JWT
 
 **Descrição dos Testes**
+
 A classe PostAPITestCase realiza os seguintes testes:
 
 - **Criação de Post:** Verifica se um post pode ser criado com sucesso por um usuário autenticado e se os dados do post são salvos corretamente.
@@ -147,9 +149,9 @@ Verifica se um post pode ser criado com sucesso:
 
 ```python
 def test_create_post(self):
-    response = self.client.post('/api/post/', {'title': 'Novo Post', 'content': 'Conteúdo do novo post'}, HTTP_AUTHORIZATION=self.authorization_header)
-    self.assertEqual(response.status_code, status.HTTP_201_CREATED)
-    self.assertEqual(Post.objects.count(), 1)
+  response = self.client.post('/api/post/', {'title': 'Novo Post', 'content': 'Conteúdo do novo post'}, HTTP_AUTHORIZATION=self.authorization_header)
+  self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+  self.assertEqual(Post.objects.count(), 1)
 ```
 
 **2. Recuperação de Post**
@@ -158,9 +160,9 @@ Verifica se um post existente pode ser recuperado:
 
 ```python
 def test_retrieve_post(self):
-    post = Post.objects.create(title='Post', content='Conteúdo')
-    response = self.client.get(f'/api/post/{post.id}/', HTTP_AUTHORIZATION=self.authorization_header)
-    self.assertEqual(response.status_code, status.HTTP_200_OK)
+  post = Post.objects.create(title='Post', content='Conteúdo')
+  response = self.client.get(f'/api/post/{post.id}/', HTTP_AUTHORIZATION=self.authorization_header)
+  self.assertEqual(response.status_code, status.HTTP_200_OK)
 ```
 
 **3. Atualização de Post**
@@ -169,9 +171,9 @@ Verifica se um post pode ser atualizado:
 
 ```python
 def test_update_post(self):
-    post = Post.objects.create(title='Post', content='Conteúdo')
-    response = self.client.patch(f'/api/post/{post.id}/', {'title': 'Post Atualizado'}, HTTP_AUTHORIZATION=self.authorization_header)
-    self.assertEqual(response.status_code, status.HTTP_200_OK)
+  post = Post.objects.create(title='Post', content='Conteúdo')
+  response = self.client.patch(f'/api/post/{post.id}/', {'title': 'Post Atualizado'}, HTTP_AUTHORIZATION=self.authorization_header)
+  self.assertEqual(response.status_code, status.HTTP_200_OK)
 ```
 
 **4. Exclusão de Post**
@@ -180,9 +182,9 @@ Verifica se um post pode ser excluído:
 
 ```python
 def test_delete_post(self):
-    post = Post.objects.create(title='Post', content='Conteúdo')
-    response = self.client.delete(f'/api/post/{post.id}/', HTTP_AUTHORIZATION=self.authorization_header)
-    self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
+  post = Post.objects.create(title='Post', content='Conteúdo')
+  response = self.client.delete(f'/api/post/{post.id}/', HTTP_AUTHORIZATION=self.authorization_header)
+  self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
 ```
 
 **5. Criação de Post sem Autenticação**
@@ -191,8 +193,8 @@ Verifica se a criação de um post é negada sem autenticação:
 
 ```python
 def test_create_post_unauthenticated(self):
-    response = self.client.post('/api/post/', {'title': 'Novo Post', 'content': 'Conteúdo do novo post'})
-    self.assertEqual(response.status_code, 401)
+  response = self.client.post('/api/post/', {'title': 'Novo Post', 'content': 'Conteúdo do novo post'})
+  self.assertEqual(response.status_code, 401)
 ```
 
 #### Execução dos Testes

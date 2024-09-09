@@ -1,0 +1,38 @@
+2024-09-09 18:58:58,431 - INFO - Watching for file changes with StatReloader
+2024-09-09 19:00:10,671 - INFO - Watching for file changes with StatReloader
+2024-09-09 19:03:47,544 - INFO - /home/saulojustiniano/www/github/weblinker/weblinker/middleware.py changed, reloading.
+2024-09-09 19:03:47,882 - INFO - Watching for file changes with StatReloader
+2024-09-09 19:04:49,620 - INFO - /home/saulojustiniano/www/github/weblinker/weblinker/middleware.py changed, reloading.
+2024-09-09 19:04:49,891 - INFO - Watching for file changes with StatReloader
+2024-09-09 19:06:20,112 - INFO - Watching for file changes with StatReloader
+2024-09-09 19:07:29,107 - INFO - Watching for file changes with StatReloader
+2024-09-09 19:07:39,359 - INFO - /home/saulojustiniano/www/github/weblinker/weblinker/middleware.py changed, reloading.
+2024-09-09 19:07:39,663 - INFO - Watching for file changes with StatReloader
+2024-09-09 19:07:41,866 - INFO - /home/saulojustiniano/www/github/weblinker/weblinker/middleware.py changed, reloading.
+2024-09-09 19:07:42,135 - INFO - Watching for file changes with StatReloader
+2024-09-09 19:08:34,713 - INFO - /home/saulojustiniano/www/github/weblinker/weblinker/settings.py changed, reloading.
+2024-09-09 19:08:35,183 - INFO - Watching for file changes with StatReloader
+2024-09-09 19:08:36,440 - INFO - /home/saulojustiniano/www/github/weblinker/weblinker/settings.py changed, reloading.
+2024-09-09 19:08:36,818 - INFO - Watching for file changes with StatReloader
+2024-09-09 19:24:33,956 - WARNING - Not Found: /api/posts/
+2024-09-09 19:24:34,244 - WARNING - Not Found: /api/posts/
+2024-09-09 19:24:34,548 - WARNING - Not Found: /api/posts/1/
+2024-09-09 19:24:34,838 - WARNING - Not Found: /api/posts/2/
+2024-09-09 19:24:35,128 - WARNING - Not Found: /api/posts/3/
+2024-09-09 19:25:25,849 - INFO - Watching for file changes with StatReloader
+2024-09-09 19:25:35,031 - WARNING - Not Found: /api/posts/
+2024-09-09 19:25:35,320 - WARNING - Not Found: /api/posts/
+2024-09-09 19:25:35,604 - WARNING - Not Found: /api/posts/1/
+2024-09-09 19:25:35,890 - WARNING - Not Found: /api/posts/2/
+2024-09-09 19:25:36,174 - WARNING - Not Found: /api/posts/3/
+2024-09-09 19:26:21,478 - WARNING - Unauthorized: /api/post/
+2024-09-09 19:26:48,191 - INFO - Novo matheus test aula novagfdgddfgfdg90345093478569034fg nvoa
+2024-09-09 19:27:11,710 - WARNING - Not Found: /api/posts/
+2024-09-09 19:27:12,003 - WARNING - Not Found: /api/posts/
+2024-09-09 19:27:12,310 - WARNING - Not Found: /api/posts/1/
+2024-09-09 19:27:12,613 - WARNING - Not Found: /api/posts/2/
+2024-09-09 19:27:12,948 - WARNING - Not Found: /api/posts/3/
+2024-09-09 19:28:10,145 - WARNING - Not Found: /api/posts/
+2024-09-09 19:28:10,435 - WARNING - Not Found: /api/posts/
+2024-09-09 19:31:00,523 - WARNING - Not Found: /api/posts/
+2024-09-09 19:31:00,812 - WARNING - Not Found: /api/posts/

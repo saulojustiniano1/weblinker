@@ -54,3 +54,9 @@
 2024-09-09 22:50:10,164 - INFO - Novo Novo Post
 2024-09-09 22:50:29,423 - INFO - Novo Novo Post
 2024-09-09 22:50:29,721 - WARNING - Unauthorized: /api/post/
+2024-09-10 16:45:58,263 - INFO - Watching for file changes with StatReloader
+2024-09-10 16:54:54,458 - WARNING - Unauthorized: /api/post/
+2024-09-10 16:55:11,541 - WARNING - Unauthorized: /api/post/
+2024-09-10 16:55:26,807 - INFO - Novo matheus test aula novagfdgddfgfdg90345093478569034fg nvfdsfdsfa
+2024-09-10 17:07:17,671 - INFO - /home/saulojustiniano/www/github/weblinker/weblinker/settings.py changed, reloading.
+2024-09-10 17:07:18,100 - INFO - Watching for file changes with StatReloader

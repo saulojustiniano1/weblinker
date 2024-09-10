@@ -60,3 +60,81 @@
 2024-09-10 16:55:26,807 - INFO - Novo matheus test aula novagfdgddfgfdg90345093478569034fg nvfdsfdsfa
 2024-09-10 17:07:17,671 - INFO - /home/saulojustiniano/www/github/weblinker/weblinker/settings.py changed, reloading.
 2024-09-10 17:07:18,100 - INFO - Watching for file changes with StatReloader
+2024-09-10 17:24:24,898 - INFO - Watching for file changes with StatReloader
+2024-09-10 17:24:27,206 - WARNING - Unauthorized: /api/post/
+2024-09-10 17:25:19,078 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-10 17:25:19,079 - DEBUG - STREAM b'sBIT' 41 4
+2024-09-10 17:25:19,079 - DEBUG - b'sBIT' 41 4 (unknown)
+2024-09-10 17:25:19,079 - DEBUG - STREAM b'tEXt' 57 25
+2024-09-10 17:25:19,079 - DEBUG - STREAM b'tEXt' 94 38
+2024-09-10 17:25:19,079 - DEBUG - STREAM b'IDAT' 144 8192
+2024-09-10 17:25:19,079 - DEBUG - Importing BlpImagePlugin
+2024-09-10 17:25:19,081 - DEBUG - Importing BmpImagePlugin
+2024-09-10 17:25:19,081 - DEBUG - Importing BufrStubImagePlugin
+2024-09-10 17:25:19,082 - DEBUG - Importing CurImagePlugin
+2024-09-10 17:25:19,083 - DEBUG - Importing DcxImagePlugin
+2024-09-10 17:25:19,084 - DEBUG - Importing DdsImagePlugin
+2024-09-10 17:25:19,088 - DEBUG - Importing EpsImagePlugin
+2024-09-10 17:25:19,089 - DEBUG - Importing FitsImagePlugin
+2024-09-10 17:25:19,089 - DEBUG - Importing FliImagePlugin
+2024-09-10 17:25:19,090 - DEBUG - Importing FpxImagePlugin
+2024-09-10 17:25:19,091 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-09-10 17:25:19,091 - DEBUG - Importing FtexImagePlugin
+2024-09-10 17:25:19,092 - DEBUG - Importing GbrImagePlugin
+2024-09-10 17:25:19,092 - DEBUG - Importing GifImagePlugin
+2024-09-10 17:25:19,092 - DEBUG - Importing GribStubImagePlugin
+2024-09-10 17:25:19,092 - DEBUG - Importing Hdf5StubImagePlugin
+2024-09-10 17:25:19,093 - DEBUG - Importing IcnsImagePlugin
+2024-09-10 17:25:19,096 - DEBUG - Importing IcoImagePlugin
+2024-09-10 17:25:19,098 - DEBUG - Importing ImImagePlugin
+2024-09-10 17:25:19,100 - DEBUG - Importing ImtImagePlugin
+2024-09-10 17:25:19,101 - DEBUG - Importing IptcImagePlugin
+2024-09-10 17:25:19,102 - DEBUG - Importing JpegImagePlugin
+2024-09-10 17:25:19,103 - DEBUG - Importing Jpeg2KImagePlugin
+2024-09-10 17:25:19,103 - DEBUG - Importing McIdasImagePlugin
+2024-09-10 17:25:19,104 - DEBUG - Importing MicImagePlugin
+2024-09-10 17:25:19,105 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-09-10 17:25:19,105 - DEBUG - Importing MpegImagePlugin
+2024-09-10 17:25:19,105 - DEBUG - Importing MpoImagePlugin
+2024-09-10 17:25:19,108 - DEBUG - Importing MspImagePlugin
+2024-09-10 17:25:19,108 - DEBUG - Importing PalmImagePlugin
+2024-09-10 17:25:19,109 - DEBUG - Importing PcdImagePlugin
+2024-09-10 17:25:19,110 - DEBUG - Importing PcxImagePlugin
+2024-09-10 17:25:19,110 - DEBUG - Importing PdfImagePlugin
+2024-09-10 17:25:19,119 - DEBUG - Importing PixarImagePlugin
+2024-09-10 17:25:19,120 - DEBUG - Importing PngImagePlugin
+2024-09-10 17:25:19,120 - DEBUG - Importing PpmImagePlugin
+2024-09-10 17:25:19,120 - DEBUG - Importing PsdImagePlugin
+2024-09-10 17:25:19,121 - DEBUG - Importing QoiImagePlugin
+2024-09-10 17:25:19,122 - DEBUG - Importing SgiImagePlugin
+2024-09-10 17:25:19,123 - DEBUG - Importing SpiderImagePlugin
+2024-09-10 17:25:19,123 - DEBUG - Importing SunImagePlugin
+2024-09-10 17:25:19,124 - DEBUG - Importing TgaImagePlugin
+2024-09-10 17:25:19,124 - DEBUG - Importing TiffImagePlugin
+2024-09-10 17:25:19,124 - DEBUG - Importing WebPImagePlugin
+2024-09-10 17:25:19,130 - DEBUG - Importing WmfImagePlugin
+2024-09-10 17:25:19,131 - DEBUG - Importing XbmImagePlugin
+2024-09-10 17:25:19,133 - DEBUG - Importing XpmImagePlugin
+2024-09-10 17:25:19,134 - DEBUG - Importing XVThumbImagePlugin
+2024-09-10 17:25:19,135 - INFO - Novo teofsdhiofhdsoifhodishjf
+2024-09-10 17:26:10,303 - WARNING - Unauthorized: /api/post/12/
+2024-09-10 17:26:16,411 - WARNING - Bad Request: /api/post/12/
+2024-09-10 17:26:37,839 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-10 17:26:37,839 - DEBUG - STREAM b'IDAT' 41 8192
+2024-09-10 17:27:18,259 - WARNING - Not Found: /api/post/2/
+2024-09-10 17:27:28,888 - WARNING - Not Found: /api/post/2/
+2024-09-10 17:27:32,602 - WARNING - Not Found: /api/post/3/
+2024-09-10 17:31:17,802 - WARNING - Unauthorized: /api/post/
+2024-09-10 17:31:34,041 - WARNING - Unauthorized: /api/post/
+2024-09-10 17:32:43,675 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-10 17:32:43,675 - DEBUG - STREAM b'sBIT' 41 4
+2024-09-10 17:32:43,675 - DEBUG - b'sBIT' 41 4 (unknown)
+2024-09-10 17:32:43,675 - DEBUG - STREAM b'tEXt' 57 25
+2024-09-10 17:32:43,675 - DEBUG - STREAM b'tEXt' 94 38
+2024-09-10 17:32:43,675 - DEBUG - STREAM b'IDAT' 144 8192
+2024-09-10 17:32:43,676 - INFO - Novo teofsdhiofhdsoifhodishjf
+2024-09-10 17:32:56,443 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-10 17:32:56,443 - DEBUG - STREAM b'IDAT' 41 8192
+2024-09-10 17:33:27,620 - WARNING - Unauthorized: /api/post/11/
+2024-09-10 17:38:20,545 - INFO - Novo Novo Post
+2024-09-10 17:38:20,875 - WARNING - Unauthorized: /api/post/
